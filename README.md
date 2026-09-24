@@ -1,28 +1,24 @@
 # Movie Theater Ticket Kiosk
 
-A self-service movie theater kiosk lets a customer view available movies and showtimes, choose an available seat, and purchase a ticket. The system confirms a successful purchase and prevents the same seat from being sold twice for the same showtime.
-
-This repository contains requirements and UML models for a guided software engineering tools exercise. No software implementation is required.
+A movie theater kiosk lets customers view movies and showtimes, choose a seat, and buy a ticket. It gives a confirmation after the purchase and prevents the same seat from being sold twice for the same showtime. This repository contains the requirements and UML diagrams for Homework 1.
 
 ## Expanded use case: Purchase Ticket
 
 **Primary Actor:** Customer
 
-**Precondition:** The kiosk is available, at least one movie showtime is offered, and the customer has a supported payment method.
+**Precondition:** The kiosk is working and showtimes are available.
 
 **Main Steps:**
 
-1. The customer views the available movies and selects a showtime.
-2. The kiosk requests and displays the available seats for that showtime.
-3. The customer selects a seat and requests a ticket purchase.
-4. The Ticket Service atomically checks that the seat is available and places a temporary hold on it.
-5. The customer provides payment details, and the Payment Service processes the payment.
-6. After payment approval, the Ticket Service records the ticket and marks the held seat as sold for that showtime.
-7. The kiosk displays a confirmation with the ticket ID, movie, showtime, and seat number.
+1. The customer chooses a movie and showtime.
+2. The kiosk displays the available seats.
+3. The customer selects a seat.
+4. The Ticket Service checks whether the seat is available for that showtime.
+5. The customer enters payment details, and the Payment Service processes the payment.
+6. After payment is approved, the Ticket Service creates the ticket and marks the seat as sold.
+7. The kiosk displays the ticket confirmation.
 
-**Postcondition:** One paid ticket exists for the customer, the selected seat is sold for that showtime, and the customer has received confirmation. Another purchase cannot sell that same seat for the same showtime.
-
-**Exceptions:** If the seat is already held or sold, the kiosk asks the customer to select another seat. If payment fails, no ticket is issued and the seat hold is released.
+**Postcondition:** The customer has a confirmed ticket. The seat is marked as sold and cannot be sold again for the same showtime.
 
 ## UML diagrams
 
@@ -32,4 +28,4 @@ This repository contains requirements and UML models for a guided software engin
 
 ## Work tracking
 
-The [requirement issues](https://github.com/CaptainJS88/HW1-Movie-Kiosk/issues) use `requirement` and priority labels. The [Movie Kiosk Homework board](https://github.com/users/CaptainJS88/projects/1) demonstrates To Do, In Progress, and Done for this modeling exercise.
+The five requirements are listed in [GitHub Issues](https://github.com/CaptainJS88/HW1-Movie-Kiosk/issues). The [Movie Kiosk Homework board](https://github.com/users/CaptainJS88/projects/1) tracks the homework items using To Do, In Progress, and Done.

@@ -106,7 +106,7 @@
         <mxCell id="c33" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=15;fontColor=#17212B;fontStyle=0;" value="1" vertex="1">
           <mxGeometry height="24" width="30" x="912" y="242" as="geometry" />
         </mxCell>
-        <mxCell id="c34" parent="1" style="shape=note;html=1;whiteSpace=wrap;align=left;spacing=15;fontFamily=Helvetica;fontSize=16;fillColor=#FFF8E1;strokeColor=#B79F57;" value="Seat is scoped to one showtime. A seat may have at most one ticket.&lt;br&gt;SeatStatus: available, held, sold. Payment models a successful ticket payment." vertex="1">
+        <mxCell id="c34" parent="1" style="shape=note;html=1;whiteSpace=wrap;align=left;spacing=15;fontFamily=Helvetica;fontSize=16;fillColor=#FFF8E1;strokeColor=#B79F57;" value="Each Seat belongs to one showtime and can have at most one ticket.&lt;br&gt;SeatStatus: available or sold. PaymentStatus: approved." vertex="1">
           <mxGeometry height="82" width="720" x="180" y="590" as="geometry" />
         </mxCell>
       </root>
