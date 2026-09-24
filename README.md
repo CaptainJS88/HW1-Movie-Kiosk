@@ -32,4 +32,4 @@ This repository contains requirements and UML models for a guided software engin
 
 ## Work tracking
 
-The [requirement issues](https://github.com/CaptainJS88/HW1-Movie-Kiosk/issues) use `requirement` and priority labels. The [Movie Kiosk Homework board](https://github.com/users/CaptainJS88/projects/1) demonstrates To Do, In Progress, and Done for this modeling exercise; it does not indicate an implemented application.
+The [requirement issues](https://github.com/CaptainJS88/HW1-Movie-Kiosk/issues) use `requirement` and priority labels. The [Movie Kiosk Homework board](https://github.com/users/CaptainJS88/projects/1) demonstrates To Do, In Progress, and Done for this modeling exercise.
