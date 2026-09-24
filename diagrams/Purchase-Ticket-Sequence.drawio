@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net" scale="2" border="0">
+  <diagram name="Purchase-Ticket-Sequence" id="5AfqYWs-ItOki9FEzPPM">
+    <mxGraphModel dx="1351" dy="736" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="c2" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=26;fontColor=#17212B;fontStyle=1;" value="Purchase Ticket" vertex="1">
+          <mxGeometry height="36" width="1100" x="20" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="c3" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=18;fontColor=#17212B;fontStyle=0;" value="Successful purchase sequence" vertex="1">
+          <mxGeometry height="28" width="1100" x="20" y="48" as="geometry" />
+        </mxCell>
+        <mxCell id="c4" parent="1" style="rounded=0;html=1;whiteSpace=wrap;align=center;fontFamily=Helvetica;fontSize=19;fontStyle=1;fillColor=#EAF0F7;strokeColor=#283747;strokeWidth=1.5;" value="Customer" vertex="1">
+          <mxGeometry height="50" width="180" x="20" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;fontSize=15;fontFamily=Helvetica;strokeWidth=1.5;strokeColor=#283747;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;dashed=1;endArrow=none;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="145" as="sourcePoint" />
+            <mxPoint x="110" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c6" parent="1" style="rounded=0;html=1;whiteSpace=wrap;align=center;fontFamily=Helvetica;fontSize=19;fontStyle=1;fillColor=#EAF0F7;strokeColor=#283747;strokeWidth=1.5;" value="Kiosk Interface" vertex="1">
+          <mxGeometry height="50" width="180" x="320" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;fontSize=15;fontFamily=Helvetica;strokeWidth=1.5;strokeColor=#283747;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;dashed=1;endArrow=none;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="145" as="sourcePoint" />
+            <mxPoint x="410" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c8" parent="1" style="rounded=0;html=1;whiteSpace=wrap;align=center;fontFamily=Helvetica;fontSize=19;fontStyle=1;fillColor=#EAF0F7;strokeColor=#283747;strokeWidth=1.5;" value="Ticket Service" vertex="1">
+          <mxGeometry height="50" width="180" x="650" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;fontSize=15;fontFamily=Helvetica;strokeWidth=1.5;strokeColor=#283747;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;dashed=1;endArrow=none;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="145" as="sourcePoint" />
+            <mxPoint x="740" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c10" parent="1" style="rounded=0;html=1;whiteSpace=wrap;align=center;fontFamily=Helvetica;fontSize=19;fontStyle=1;fillColor=#EAF0F7;strokeColor=#283747;strokeWidth=1.5;" value="Payment Service" vertex="1">
+          <mxGeometry height="50" width="180" x="950" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="e11" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;fontSize=15;fontFamily=Helvetica;strokeWidth=1.5;strokeColor=#283747;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;dashed=1;endArrow=none;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1040" y="145" as="sourcePoint" />
+            <mxPoint x="1040" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e12" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;fontSize=15;fontFamily=Helvetica;strokeWidth=1.5;strokeColor=#283747;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;fontSize=17;" value="1: selectShowtime()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="175" as="sourcePoint" />
+            <mxPoint x="410" y="175" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e13" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;fontSize=15;fontFamily=Helvetica;strokeWidth=1.5;strokeColor=#283747;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;fontSize=17;" value="2: getAvailableSeats()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="220" as="sourcePoint" />
+            <mxPoint x="740" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e14" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;fontSize=15;fontFamily=Helvetica;strokeWidth=1.5;strokeColor=#283747;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;dashed=1;endArrow=open;endFill=0;fontSize=17;" value="3: availableSeats">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="265" as="sourcePoint" />
+            <mxPoint x="410" y="265" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e15" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;fontSize=15;fontFamily=Helvetica;strokeWidth=1.5;strokeColor=#283747;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;fontSize=17;" value="4: selectSeat()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="310" as="sourcePoint" />
+            <mxPoint x="410" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e16" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;fontSize=15;fontFamily=Helvetica;strokeWidth=1.5;strokeColor=#283747;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;fontSize=17;" value="5: checkAndHoldSeat()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="355" as="sourcePoint" />
+            <mxPoint x="740" y="355" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e17" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;fontSize=15;fontFamily=Helvetica;strokeWidth=1.5;strokeColor=#283747;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;dashed=1;endArrow=open;endFill=0;fontSize=17;" value="6: holdConfirmed">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="400" as="sourcePoint" />
+            <mxPoint x="410" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e18" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;fontSize=15;fontFamily=Helvetica;strokeWidth=1.5;strokeColor=#283747;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;fontSize=17;" value="7: providePayment()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="445" as="sourcePoint" />
+            <mxPoint x="410" y="445" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e19" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;fontSize=15;fontFamily=Helvetica;strokeWidth=1.5;strokeColor=#283747;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;fontSize=17;" value="8: purchaseTicket()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="490" as="sourcePoint" />
+            <mxPoint x="740" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e20" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;fontSize=15;fontFamily=Helvetica;strokeWidth=1.5;strokeColor=#283747;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;fontSize=17;" value="9: processPayment()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="535" as="sourcePoint" />
+            <mxPoint x="1040" y="535" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e21" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;fontSize=15;fontFamily=Helvetica;strokeWidth=1.5;strokeColor=#283747;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;dashed=1;endArrow=open;endFill=0;fontSize=17;" value="10: paymentApproved">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1040" y="580" as="sourcePoint" />
+            <mxPoint x="740" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e22" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;fontSize=15;fontFamily=Helvetica;strokeWidth=1.5;strokeColor=#283747;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;dashed=1;endArrow=open;endFill=0;fontSize=17;" value="11: purchaseConfirmed(ticket)">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="625" as="sourcePoint" />
+            <mxPoint x="410" y="625" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e23" edge="1" parent="1" style="html=1;endArrow=block;endFill=1;fontSize=15;fontFamily=Helvetica;strokeWidth=1.5;strokeColor=#283747;labelBackgroundColor=#FFFFFF;verticalAlign=bottom;dashed=1;endArrow=open;endFill=0;fontSize=17;" value="12: displayConfirmation()">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="670" as="sourcePoint" />
+            <mxPoint x="110" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="c24" parent="1" style="shape=note;html=1;whiteSpace=wrap;align=left;spacing=10;fontFamily=Helvetica;fontSize=16;fillColor=#FFF8E1;strokeColor=#B79F57;" value="At step 5, check and hold&lt;br&gt;the seat atomically." vertex="1">
+          <mxGeometry height="65" width="270" x="795" y="324" as="geometry" />
+        </mxCell>
+        <mxCell id="c25" parent="1" style="shape=note;html=1;whiteSpace=wrap;align=left;spacing=10;fontFamily=Helvetica;fontSize=16;fillColor=#FFF8E1;strokeColor=#B79F57;" value="Before step 11, record the&lt;br&gt;ticket and mark the seat sold." vertex="1">
+          <mxGeometry height="65" width="270" x="795" y="632" as="geometry" />
+        </mxCell>
+        <mxCell id="c26" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=16;fontColor=#17212B;fontStyle=0;" value="Seat holds prevent two customers from purchasing the same seat for the same showtime." vertex="1">
+          <mxGeometry height="30" width="1100" x="20" y="720" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
